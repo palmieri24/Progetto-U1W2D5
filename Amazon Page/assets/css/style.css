@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+.amazon-logo {
+  background-color: #252f3d;
+  height: 36px;
+}
+
+.amazon-logo img {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.search-bar {
+  background-color: #394758;
+  height: 20px;
+}
+
+#menu a {
+  color: #eef6ff;
+  text-decoration: none;
+  font-size: 9.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+
+ul#menu li {
+  display: inline;
+  padding: 5px;
+  padding-left: 7px;
+}
+
+body {
+  background-color: #eaedee;
+}
+
+.orange-bar {
+  background-color: #f76a1f;
+  height: 20px;
+  color: #ffe6c8;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 3px;
+  padding-top: 5px;
+  border-color: #eaedee;
+  margin: 20px;
+}
+
+.holiday-gift-box {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/bg-image.png);
+  background-size: contain;
+  margin: 20px;
+  height: 120px;
+  width: 110;
+  text-align: center;
+  color: #f2fdfd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.holiday-gift-box h3 {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.holiday-gift-box h6 {
+  padding-bottom: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.perfect-gift {
+  background-color: #fefefe;
+  height: 280px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfect-gift-header {
+  padding-top: 2px;
+}
+
+.perfect-gift-header p {
+  font-size: 12.5px;
+  margin: 10px;
+}
+
+.perfect-gift-header a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #198c9b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.perfect-gift-kindle {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_1.jpg);
+  height: 230px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 205px;
+  background-size: cover;
+  border-radius: 5.5%;
+  display: inline-block;
+}
+
+.perfect-gift-laptop {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_2.jpg);
+  height: 230px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 205px;
+  background-size: cover;
+  border-radius: 5.5%;
+  display: inline-block;
+}
+
+.perfect-gift-smartwatch {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_3.jpg);
+  height: 230px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 205px;
+  background-size: cover;
+  border-radius: 5.5%;
+  display: inline-block;
+}
+
+.perfect-gift-pets {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_4.jpg);
+  height: 230px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 205px;
+  background-size: cover;
+  border-radius: 5.5%;
+  display: inline-block;
+}
+
+.gifting-game {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_9.png);
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 5px;
+}
+
+.gifting-game-text p {
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gifting-game-text a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #198c9b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.audio-accessories {
+  background-image: url(http://127.0.0.1:5500/Amazon%20Page/assets/images/img_10.png);
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 5px;
+}
+
+.audio-accessories-text p {
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.audio-accessories-text a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #198c9b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.back-to-top {
+  background-color: #394758;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: 20px;
+}
+
+.back-to-top a {
+  color: #eef6ff;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.amazon-logo-end {
+  background-color: #252f3d;
+  height: 120px;
+  text-align: center;
+}
+
+.amazon-logo-end img {
+  height: 36px;
+  margin-top: 30px;
+}

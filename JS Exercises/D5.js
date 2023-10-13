@@ -63,9 +63,7 @@ const cars = [
   },
 ];
 
-const licensePlateNames = ["GH124CD", "DE008KL", "FE743BT"];
-cars.licensePlate.push = licensePlateNames;
-console.log(cars);
+//*const licensePlateNames = ["GH124CD", "DE008KL", "FE743BT"];cars.licensePlate.push = licensePlateNames;console.log(cars);//
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -88,7 +86,11 @@ console.log(cars);
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
-
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i].trims[0]);
+  justTrims.push(cars[i].trims[0]);
+}
+console.log(justTrims);
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
@@ -118,3 +120,64 @@ while (i < numericArray.length && numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+const positionsArray = charactersArray.map((char) => {
+  switch (char) {
+    case "a":
+      return alphabet.indexOf(char) + 1;
+    case "b":
+      return alphabet.indexOf(char) + 1;
+    case "c":
+      return alphabet.indexOf(char) + 1;
+    case "d":
+      return alphabet.indexOf(char) + 1;
+    case "e":
+      return alphabet.indexOf(char) + 1;
+    case "f":
+      return alphabet.indexOf(char) + 1;
+    case "g":
+      return alphabet.indexOf(char) + 1;
+    case "h":
+      return alphabet.indexOf(char) + 1;
+    case "i":
+      return alphabet.indexOf(char) + 1;
+    case "j":
+      return alphabet.indexOf(char) + 1;
+    case "k":
+      return alphabet.indexOf(char) + 1;
+    case "l":
+      return alphabet.indexOf(char) + 1;
+    case "m":
+      return alphabet.indexOf(char) + 1;
+    case "n":
+      return alphabet.indexOf(char) + 1;
+    case "o":
+      return alphabet.indexOf(char) + 1;
+    case "p":
+      return alphabet.indexOf(char) + 1;
+    case "q":
+      return alphabet.indexOf(char) + 1;
+    case "r":
+      return alphabet.indexOf(char) + 1;
+    case "s":
+      return alphabet.indexOf(char) + 1;
+    case "t":
+      return alphabet.indexOf(char) + 1;
+    case "u":
+      return alphabet.indexOf(char) + 1;
+    case "v":
+      return alphabet.indexOf(char) + 1;
+    case "w":
+      return alphabet.indexOf(char) + 1;
+    case "x":
+      return alphabet.indexOf(char) + 1;
+    case "y":
+      return alphabet.indexOf(char) + 1;
+    case "z":
+      return alphabet.indexOf(char) + 1;
+
+    default:
+      return -1;
+  }
+});
+console.log(positionsArray);
